@@ -1,0 +1,1 @@
+A small reconstruction exercise featuring the Google homepage. 
