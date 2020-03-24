@@ -12,14 +12,18 @@ body {
 a {
     font-family: Arial, Helvetica, sans-serif;
     color: #292727dc;
-
+    text-decoration: none;
     font-size: 0.82em;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a.icons {
     display: flex;
     font-size: 1.3em;
-    
+    text-decoration: none;
     
 }
 
@@ -28,7 +32,7 @@ a.icons {
     flex-direction: row;
     width: 100%;
     height: 6vh;
-    background-color: sandybrown;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -38,14 +42,14 @@ a.icons {
     align-items: center;
     height: 100%;
     width: 10%;
-    background-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
 }
 
 .middle-header {
     display: flex;
     height: 100%;
     width: 70%;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
 }
 
 .right-header {
@@ -54,7 +58,7 @@ a.icons {
     align-items: center;
     height: 100%;
     width: 20%;
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -75,7 +79,7 @@ a.icons {
     align-items: center;
     width: 100%;
     height: 25vh;
-    background-color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .main-two {
@@ -85,7 +89,7 @@ a.icons {
     align-items: center;
     width: 25%;
     height: 5vh;
-    background-color: rgb(68, 94, 143);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 28%;
 }
 
@@ -95,12 +99,13 @@ img.logo {
 }
 
 input[type=text] {
-    border: none;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 3em;
     width: 40%;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+    font-size: .95em;
 }
 
 .button {
@@ -124,7 +129,7 @@ input[type=text] {
     flex-direction: row;
     width: 100%;
     height: 4.5vh;
-    background-color: rgb(30, 184, 56);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -133,8 +138,8 @@ input[type=text] {
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    width: 7%;
-    background-color: yellowgreen;
+    width: 9%;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -151,7 +156,7 @@ input[type=text] {
     flex-direction: row;
     width: 100%;
     height: 4.5vh;
-    background-color: rgb(96, 209, 244);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -159,7 +164,7 @@ input[type=text] {
     display: flex;
     height: 100%;
     width: 50%;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
 }
 
 .right-footer {
@@ -168,7 +173,7 @@ input[type=text] {
     align-items: center;
     height: 100%;
     width: 20%;
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -178,7 +183,7 @@ input[type=text] {
     align-items: center;
     height: 100%;
     width: 30%;
-    background-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
 }
 
 .footer-links{
